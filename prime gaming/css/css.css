@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+body {
+    background-color: #1C1B29;
+    font-family: Vazirmatn;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background-wrapper {
+    background-image: url('../images/geralt_img.svg');
+    background-size: cover;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+
+  }
+
+a:visited{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0  auto;
+}
+.main .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+    font-weight: 500;
+
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu {
+    width: 811px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo, a {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-menu li {
+    color:white;
+    width: 135.17px;
+    height: 23px;
+    font-size: 15px;
+    list-style-type: none;
+}
+.header-menu li:first-child{
+    color:#FF5733;
+}
+.header-menu li:first-child a{
+    color:#FF5733;
+}
+.search-btn {
+    padding: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+    background-color: #FF5733;
+}
+.search-btn img {
+    width: 20px;
+    height: 20px;
+}
+.authorization {
+    width: 208px;
+    height: 40px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+}
+.authorization li:first-child {
+    width: 104px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #FF5733;
+    color:white;
+}
+
+.authorization li:nth-child(2){
+    color:#FF5733;
+    width: 104px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #FF5733;
+}
+
+.authorization li:nth-child(2) a{
+    color:#FF5733;
+}
+.main {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin: 0;
+
+}
+.popular_game_section{
+    width: 333px;
+    height: 620px;
+    color:white;  
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+.popular_game_section p {
+    margin: 0;
+}
+.raiting_date{
+list-style-type:none;
+padding: 0;
+display: flex;
+align-items: flex-start;
+gap:35px;
+margin:0;
+margin-top: 42px;
+}
+.raiting_date li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    }
+.color1raiting{
+    color: #FFCC00;
+    font-size: 24px;
+
+}
+.color2raiting{
+    color: #979797;
+    font-size: 16px;
+}
+.platforms_genre{
+    display: flex;
+    margin: 0;
+    margin-top:26px;
+}
+.platforms_genre_block{
+width: 166.50px;
+height: 54px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.platforms_genre_block span{
+    color: #979797;
+    font-size: 16px;
+}
+.platforms_genre_block h2{
+   margin: 0;
+}
+.genres_btns {
+    margin-top:37px;
+width: 333px;
+height: 33px;
+display: flex;
+list-style-type: none;
+color:#979797;
+padding: 0;
+gap:7px;
+}
+.genres_btns li {
+width: 100px;
+border:#979797 solid 1px;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.buy_review_block {
+display: flex;
+justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+.buy_btn, .review_btn{
+    font-weight: 500;
+}
+.buy_btn a {
+    width: 144px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FF5733;
+    color:white;
+}
+.review_btn a  {
+    color:#FF5733;
+    width: 177px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #FF5733;
+}
+.popular_GameS {
+    color:white;
+    width: 831px;
+    height: 304px;
+    margin-left: 35px;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+align-items: center;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.slider h2, h1 {
+    margin-right: auto; /* прижимает к левому краю */
+}
+.popular_GameS_list {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    width: 831px;
+    height: 240px;
+    padding: 0;
+    list-style-type: none;
+    gap: 16px;
+}
+.popular_GameS_list {
+gap: 16px;
+}
+.pointer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 44px;
+height: 44px;
+border: solid #979797 1px;
+border-radius: 8px;
+}
+.game-categories {
+    margin-top: 80px;
+    color: white;
+    height: 527px;
+    justify-self:space-between;
+}
+.both_game_categories {
+    color:white;
+    display: flex;
+    list-style-type: none;
+  
+    gap: 24px;
+}
+.left_game_category, .right_game_category {
+    padding: 0;    
+}
+.both_game_categories li {
+    list-style-type: none;
+}
+.both_game_categories p {
+    margin: 23px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left_game_category li:nth-child(1) {
+    background: url('../images/f1_img.svg');
+    width: 588px;
+    height: 210px;
+    display: flex;
+    align-items:flex-end;
+    margin-bottom: 24px;
+    border-radius:5px;
+  }
+  .left_vertical_element_category li:nth-child(1) {
+    display: flex;
+    align-items:flex-end;
+    background: url('../images/stronghol_img.svg');
+    width: 282px;
+    height: 210px;
+    border-radius:5px;
+  }
+  .left_vertical_element_category li:nth-child(2) {
+    background: url('../images/mncft_img.svg');
+    width: 282px;
+    height: 210px;
+    display: flex;
+    align-items:flex-end;
+    border-radius:5px;
+  }
+  .left_vertical_element_category, .right_vertical_element_category  {
+    display: flex;
+    padding: 0;
+    gap: 24px;
+  }
+  .right_game_category li:last-child {
+    background: url('../images/elden_img.svg');
+    width: 588px;
+    height: 210px;
+    display: flex;
+    align-items:flex-end;
+    margin-bottom: 24px;
+    border-radius:10px;
+  }
+  .right_vertical_element_category li:nth-child(1) {
+    display: flex;
+    align-items:flex-end;
+    background: url('../images/gta_img.svg');
+    width: 282px;
+    height: 210px;
+    border-radius:5px;
+  }
+  .right_vertical_element_category li:nth-child(2) {
+    background: url('../images/assassin_img.svg');
+    width: 282px;
+    height: 210px;
+    display: flex;
+    align-items:flex-end;
+    border-radius:5px;
+  }
+  .trending_block {
+    margin-top: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: column;
+    
+  }
+.block_name, .view_all_btn{
+    display: flex;
+   
+    align-items: center;
+  }
+  .trending_block .block_name .slider {
+   margin-left: 650px;
+  }
+  .block_name {
+    margin-bottom: 32px;
+  }
+  .block_name h1 {
+width: 178px;
+height: 38px;
+  }
+  .block_name {
+    gap:48px;
+    color:white;
+  }
+  .view_all_btn {
+    color:#FF5733;
+    width: 166px;
+    height: 44px;
+    gap: 4px;
+  }
+
+  .trending_block .slider .pointer {
+    width: 44px;
+    height: 32px;
+}
+
+.trending_block_catalogue {
+    width: 1200px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    gap: 16px;  
+}
+
+.trending_block_catalogue li {
+    width: 227.2px;
+    height: 370px;
+    display: flex;
+padding: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    border-radius:12px;
+    border:#7D3C98 solid 1px;
+    padding: 10px;
+    gap:12px;
+}
+.trending_block_catalogue p {
+    width: 207.2px;
+    height: 25px;
+    margin: 0;
+    font-weight: 500px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.trending_block_catalogue img {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+}
+
+.raiting_date_catalogue {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 207.2px;
+    height: 25px;
+    color:#979797;
+    
+}
+.date_release, .metacritic_numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+  
+}
+.metacritic_numbers img, .date_release img {
+   width: 20px;
+   height: 20px;
+}
+
+.raiting_date_catalogue, .color1raiting, .color2raiting {
+    font-size: 12px;
+}
+
+.buy_calatogue {
+    display: flex;
+    align-items:center;
+    width: 207px;
+    height: 25px;
+    gap: 55px;
+}
+
+
+.price_catalogue {
+    display: flex;
+    align-items:center;
+    width: 85px;
+    gap: 10px;
+}
+
+.price_catalogue p:nth-child(1) {
+    font-size: 12px;
+    color:#979797;
+    text-decoration: line-through;
+}
+
+.price_catalogue p:nth-child(3) {
+    border: solid 1px #FF5733;
+    border-radius: 8px;
+    font-size: 10px;
+    background-color:#FF5733;
+    width: 25px;
+    height: 8px;
+    padding: 4px;
+}
+
+.buy_button_catalogue {
+    display: flex;
+    font-size: 12px;
+    gap: 4px;
+}
+
+.month_game {
+    margin-top: 100px;
+    width: 1200px;
+    display: flex;
+    gap: 36px;
+}
+
+.month_block_name {
+    color:aliceblue; 
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.month_block_name h1{
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.month_game_description {
+    color:aliceblue;
+    width: 582px;
+    height: 189px;
+}
+
+.month_game .raiting_date_catalogue {
+width: 333px;
+height: 38px;
+display: flex;
+align-items: flex-start;
+margin-top: 32px;
+}
+
+.raiting_buy_section {
+    width: 333px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.month_game .raiting_date_catalogue .metacritic_numbers .color1raiting {
+font-size: 24px;
+}
+
+.month_game .raiting_date_catalogue .metacritic_numbers .color2raiting {
+font-size: 16px;
+}
+
+.month_game .raiting_date_catalogue .metacritic_numbers img {
+width: 32px;
+height: 32px;
+margin-right: 12px;
+}
+
+.month_game .raiting_date_catalogue .date_release {
+font-size: 14px;
+}
+
+.month_game .raiting_date_catalogue .date_release img {
+width: 32px;
+height: 32px;
+margin-right: 12px;
+}
+
+.month_game .raiting_date_catalogue, .platforms_genre {
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+.month_game .raiting_buy_section {
+    width: 582px;
+    height: 108px;
+}
+
+.raiting_platforms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.platforms {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+.platforms li {
+    display: flex;
+    justify-content: center;
+    width: 105px;
+    height: 33px;
+    border: #979797 1px solid;
+    border-radius: 8px;
+}
+
+
+.month_platforms , .left_platforms , .right_platforms ul {
+     padding: 0;
+
+}
+
+.month_platforms li{
+        display: flex;
+}
+
+
+.left_platforms li{
+   color:#979797;
+    width: 287px;
+    height: 30px;
+    border:#979797 solid 1px;
+    border-radius: 8px;
+    list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.right_platforms li{
+      color:#979797;
+    margin-top: 8px;
+    width: 287px;
+    height: 30px;
+    border:#979797 solid 1px;
+    border-radius: 8px;
+    list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.month_platforms ul {
+    display: flex;
+    padding: 0;
+    gap: 8px;
+}
+
+.raiting_buy_section .buy_review_block a {
+    width: 285px;
+    height: 44px;
+}
+
+.month_game .slider {
+    width: 582px;
+    height: 51px;
+   
+}
+
+.left_month_game {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_month_game {
+    display: flex;
+    flex-direction: column;
+
+    width: 582px;
+    height: 457px;
+}
+
+.trailer_img img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.screen_list li {
+    list-style-type: none;
+}
+
+.screen_list {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+}
+
